@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight="
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/txtTank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Tank="
+        app:layout_constraintStart_toStartOf="@id/txtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeight" />
+
+    <TextView
+        android:id="@+id/txtTakhometre"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="76dp"
+        android:text="Thmetr="
+        app:layout_constraintStart_toStartOf="@id/txtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeight" />
+
+    <TextView
+        android:id="@+id/txtWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="124dp"
+        android:text="Width="
+        app:layout_constraintStart_toStartOf="@id/txtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeight" />
+
+    <TextView
+        android:id="@+id/txtHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="176dp"
+        android:text="Height="
+        app:layout_constraintStart_toStartOf="@id/txtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeight" />
+
+    <TextView
+        android:id="@+id/txtVinCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="232dp"
+        android:text="VinCode="
+        app:layout_constraintStart_toStartOf="@id/txtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeight" />
+
+    <TextView
+        android:id="@+id/txtMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="280dp"
+        android:text="Mark="
+        app:layout_constraintStart_toStartOf="@id/txtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeight" />
+
+    <TextView
+        android:id="@+id/txtIsEngine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="336dp"
+        android:text="IsEngine="
+        app:layout_constraintStart_toStartOf="@id/txtWeight"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeight" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
